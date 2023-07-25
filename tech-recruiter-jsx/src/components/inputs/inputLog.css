@@ -5,30 +5,31 @@
 .input-log {
  
     outline: none;
-    color: whitesmoke;
-    background-color: black;
-    height: 43px;
-    border-radius: 8px;
+    color: var(--text-secondary-color);
+    background-color: var(--primary);
+    height: 2.75rem;
+    border-radius: 0.5rem;
     outline: none;
     border: none;
-    padding-left: 44px;
-    width: 300px;
-    border: 1px solid #ffffff85;
+    padding-left: 2.75rem;
+    width: 18.75rem;
+    border: 1px solid var(--stroke-color);
+
 
 
 }
 
 .input-log:hover{
-    border: 1px solid #ffffff;
+    border: 1px solid var(--stroke-color-hover);
 }
 
 .input-log::placeholder {
-    color: #ffffff85;
+    color: var(--stroke-color);
 }
 
 .input-log:hover::placeholder{
     
-    color: #ffffff;
+    color: var(--stroke-color-hover);
 }
 
 .input-log-icon-password, .input-log-icon-email  {

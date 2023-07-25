@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -12,6 +12,38 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+
+  --secondary: #3AB8E8;
+  --primary: #101010;
+
+  --gray-95:#f2f2f2;
+  --gray-74:#bdbdbd;
+  --gray-67: #ababab;
+  --gray-53: #878787;
+
+  --background-color: #ffffff;
+  --stroke-color: #FFFFFF80;
+  --stroke-color-hover: #ffffff;
+
+  --placeholder-color: var(--stroke-color);
+  --placeholder-color-hover: var(--stroke-color-hover);
+
+  --text-title-color: #000000;
+  --text-color-primary: #272833; 
+  --text-color-secondary: #FFFFFF; 
+  --text-color-tertiary : #ABABAB;
+
+  --card-notification-color: #DC3434;
+  --links-color: #0053F0;
+
+  --tag-analysis-color: #ABABAB;
+  --tag-hired-color: #FEC400;
+  --tag-avaliable-color: #29CC97;
+  --tag-urgent-color: #EB5757;
+  --tag-no-urgent-color: #F2C94C;
+  --tag-normal-color: #6FCF97;
+
 }
 
 

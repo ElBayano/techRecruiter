@@ -7,9 +7,11 @@ function App() {
 
   return (
     <div className='app'>
-     <InputLog type="text" placeholder="Email"/>
-     <InputLog type="password" placeholder="Digite a sua senha"/>
-     <Button className="submit-form">Teste do botão</Button>
+      <div className='container-login'>
+        <InputLog type="text" placeholder="Email"/>
+        <InputLog type="password" placeholder="Digite a sua senha"/>
+      </div>
+      <Button className="submit-form">Entrar</Button>
     </div>
   )
 }
