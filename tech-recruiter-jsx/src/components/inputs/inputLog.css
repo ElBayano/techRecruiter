@@ -1,0 +1,39 @@
+.container-input-log {
+    position: relative;
+}
+
+.input-log {
+ 
+    outline: none;
+    color: whitesmoke;
+    background-color: black;
+    height: 43px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding-left: 44px;
+    width: 300px;
+    border: 1px solid #ffffff85;
+
+
+}
+
+.input-log:hover{
+    border: 1px solid #ffffff;
+}
+
+.input-log::placeholder {
+    color: #ffffff85;
+}
+
+.input-log:hover::placeholder{
+    
+    color: #ffffff;
+}
+
+.input-log-icon-password, .input-log-icon-email  {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    margin-left: 15px;
+}
