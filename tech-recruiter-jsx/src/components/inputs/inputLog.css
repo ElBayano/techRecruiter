@@ -5,7 +5,7 @@
 .input-log {
  
     outline: none;
-    color: var(--text-secondary-color);
+    color: var(--text-color-secondary);
     background-color: var(--primary);
     height: 2.75rem;
     border-radius: 0.5rem;
@@ -14,9 +14,6 @@
     padding-left: 2.75rem;
     width: 18.75rem;
     border: 1px solid var(--stroke-color);
-
-
-
 }
 
 .input-log:hover{
@@ -24,12 +21,12 @@
 }
 
 .input-log::placeholder {
-    color: var(--stroke-color);
+    color: var(--placeholder-color);
 }
 
 .input-log:hover::placeholder{
     
-    color: var(--stroke-color-hover);
+    color: var(--placeholder-color-hover);
 }
 
 .input-log-icon-password, .input-log-icon-email  {
