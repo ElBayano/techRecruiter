@@ -1,6 +1,7 @@
 import React from "react";
 import "/src/assets/icons/emailIcon.svg"
-import "./inputLog.css"
+import "./styles"
+import { LoginIcon, Input, ContainerInput, } from "./styles";
 
 export default function InputLog({type, placeholder}) {
 
@@ -10,8 +11,8 @@ export default function InputLog({type, placeholder}) {
     const typeOfClass = type === "password"? password : email
     
 return (
-    <div className="container-input-log">
-        <img src={`/src/assets/icons/${srcImg}.svg`} alt="icone de email" className={typeOfClass}/>
-        <input type={type} className="input-log" placeholder={placeholder}></input>
-    </div>
+    <ContainerInput>
+        <LoginIcon src={`/src/assets/icons/${srcImg}.svg`} alt="icone de email" className={typeOfClass}/>
+        <Input type={type} className="input-log" placeholder={placeholder}></Input>
+    </ContainerInput>
 )}
