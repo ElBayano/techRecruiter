@@ -1,5 +1,6 @@
 import React from "react";
-import "/src/assets/icons/emailIcon.svg"
+// import "../../assets/icons/emailIcon.svg"
+// import "../../assets/icons/passwordIcon.svg"
 import "./styles"
 import { LoginIcon, Input, ContainerInput, } from "./styles";
 
