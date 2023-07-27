@@ -4,9 +4,7 @@ import './App.css'
 import "./assets/icons/emailIcon.svg"
 import "./assets/icons/passwordIcon.svg"
 
-/* import InputLog from './components/inputs/inputLog'
-import Button from "./components/buttons/buttonComponent" */
-import {Routes, Route} from "react-router-dom"
+import { BrowserRouter ,Routes, Route} from "react-router-dom"
 import LoginPage from "./components/pages/login/LoginPage"
 import Painel from "./components/pages/painel/Painel"
 import FooterSession from "./components/footerSession/footerSession"
@@ -14,14 +12,14 @@ import FooterSession from "./components/footerSession/footerSession"
 function App() {
 
   return (
-    <>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<LoginPage/>}/>
         <Route path='/painel' element={<Painel/>}/>
       </Routes>
-
       <FooterSession/>
-    </>
+      <FooterSession/>
+    </BrowserRouter>
   )
 }
 export default App

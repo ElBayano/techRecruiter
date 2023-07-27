@@ -20,8 +20,7 @@ function LoginPage() {
         <p style={{color: "var(--gray-53)", marginTop: "0.5625rem", cursor: "pointer"}}>Esqueceu a senha?</p>
       </div>
     </div>
-        <div className='styled-footer'></div>
-        </>
+    </>
     )
 }
 

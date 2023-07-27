@@ -1,8 +1,8 @@
 import styled from "styled-components"
+import React from "react"
 import {FooterSessionAnimation} from "./footerSession.animation"
 
 export const FooterSessionStyled = styled.div`
-
 
   width: 100%;
   height: 100%;
@@ -12,5 +12,4 @@ export const FooterSessionStyled = styled.div`
   left: 0;
   animation: ${FooterSessionAnimation} 1s  forwards;
   z-index: 1000;
-  
   `
