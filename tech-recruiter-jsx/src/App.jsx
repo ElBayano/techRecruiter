@@ -13,9 +13,9 @@ function App() {
     <BrowserRouter>
       <Routes> 
         <Route path='/' element={<LoginPage/>}/>
+        <Route path='/' element={<FooterSession/>}/>
         <Route path='/painel' element={<Painel/>}/>
       </Routes>
-      <FooterSession/>
     </BrowserRouter>
   )
 }

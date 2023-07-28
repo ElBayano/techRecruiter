@@ -3,6 +3,7 @@ import React from "react";
 import InputLog from '../../inputs/inputLog'
 import Button from "../../buttons/buttonComponent"
 import { Link } from "react-router-dom";
+import { LoginPageStyle } from "./LoginPage.styled";
 
 
 function LoginPage() {
@@ -10,6 +11,7 @@ function LoginPage() {
 
     return (
         <>
+      <LoginPageStyle/>
     <div className='app'>
       <span className='logo'>PRH</span>
       <div className='container' style={{textAlign: "center"}}>

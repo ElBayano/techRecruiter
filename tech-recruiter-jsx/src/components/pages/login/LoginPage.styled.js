@@ -1,16 +1,15 @@
 import React from "react";
-import styled from "styled-components"
+import {createGlobalStyle} from "styled-components"
 
-export const LoginPageStyle = styled.div`
+export const LoginPageStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap');
 
 
 .app {
-  width: 100%;
-  height: 100vh;
-  /* background-color: #a52a2a; */
+
   background-color: var(--primary);
   display: flex;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
