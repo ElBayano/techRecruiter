@@ -1,11 +1,11 @@
 import React from "react";
+import SideNav from "../../painel/sideNav"
 
 function Overview(){
 
     return(
     <>
-    
-        <h1>Foi</h1>
+        <SideNav/>
     </>
     )
 }
