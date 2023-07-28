@@ -1,8 +1,6 @@
-import React from "react";
 import {createGlobalStyle} from "styled-components"
 
 export const LoginPageStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap');
 
 
 .app {

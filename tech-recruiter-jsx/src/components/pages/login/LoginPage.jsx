@@ -4,7 +4,7 @@ import InputLog from '../../inputs/inputLog'
 import Button from "../../buttons/buttonComponent"
 import { Link } from "react-router-dom";
 import { LoginPageStyle } from "./LoginPage.styled";
-
+import FooterSession from "../../footerSession/footerSession"
 
 function LoginPage() {
 
@@ -24,6 +24,7 @@ function LoginPage() {
         <p style={{color: "var(--gray-53)", marginTop: "0.5625rem", cursor: "pointer"}}>Esqueceu a senha?</p>
       </div>
     </div>
+    <FooterSession/>
     </>
     )
 }

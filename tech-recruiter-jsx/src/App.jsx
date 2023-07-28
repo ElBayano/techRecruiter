@@ -1,20 +1,17 @@
 import { useState } from 'react'
-import './App.css'
 
 import "./assets/icons/emailIcon.svg"
 import "./assets/icons/passwordIcon.svg"
 
 import { BrowserRouter ,Routes, Route} from "react-router-dom"
 import LoginPage from "./components/pages/login/LoginPage"
-import Painel from "./components/pages/painel/Painel"
-import FooterSession from "./components/footerSession/footerSession"
+import Overview from "./components/pages/overview/Overview"
 function App() {
   return (
     <BrowserRouter>
       <Routes> 
-        <Route path='/' element={<LoginPage/>}/>
-        <Route path='/' element={<FooterSession/>}/>
-        <Route path='/painel' element={<Painel/>}/>
+        <Route path='/' index element={<LoginPage/>}/>
+        <Route path='/painel' element={<Overview/>}/>
       </Routes>
     </BrowserRouter>
   )

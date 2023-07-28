@@ -1,6 +1,6 @@
 import React from "react";
 
-function Painel(){
+function Overview(){
 
     return(
     <>
@@ -10,4 +10,4 @@ function Painel(){
     )
 }
 
-export default Painel
+export default Overview
