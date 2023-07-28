@@ -68,6 +68,27 @@ body {
     height: 100vh;
     background-color: var(--primary);
 }
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.875rem;
+}
+
+.logo {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 5rem;
+  color: var(--secondary);
+  font-weight: 800;
+}
 `
 
 export default LightTheme
