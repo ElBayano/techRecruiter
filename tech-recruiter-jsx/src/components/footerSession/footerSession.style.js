@@ -10,6 +10,7 @@ export const FooterSessionStyled = styled.div`
   position: absolute;
   bottom: 0;
   left: 0;
-  animation: ${FooterSessionAnimation} 1s  forwards;
+  clip-path: polygon(0 90%, 100% 80%, 100% 100%, 0% 100%);
+  animation: ${FooterSessionAnimation} 1s  ;
   z-index: 1000;
   `
