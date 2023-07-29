@@ -1,5 +1,5 @@
 import React from "react";
-import SideNav from "../../painel/sideNav"
+import SideNav from "../../sideNav/sideNav"
 
 function Overview(){
 

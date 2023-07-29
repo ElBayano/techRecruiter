@@ -14,6 +14,6 @@ export default function InputLog({type, placeholder}) {
 return (
     <ContainerInput>
         <LoginIcon src={`/src/assets/icons/${srcImg}.svg`} alt="icone de email" className={typeOfClass}/>
-        <Input type={type} className="input-log" placeholder={placeholder}></Input>
+        <Input className="input-log" placeholder={placeholder}></Input>
     </ContainerInput>
 )}

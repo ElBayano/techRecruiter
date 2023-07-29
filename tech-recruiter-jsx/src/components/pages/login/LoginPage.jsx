@@ -20,7 +20,7 @@ function LoginPage() {
           <InputLog type="password" placeholder="Digite a sua senha"/>
         </div>
         
-        <Link to="/painel"> <Button>Entrar</Button> </Link>
+        <Link to="/inicio"> <Button>Entrar</Button> </Link>
         <p style={{color: "var(--gray-53)", marginTop: "0.5625rem", cursor: "pointer"}}>Esqueceu a senha?</p>
       </div>
     </div>
